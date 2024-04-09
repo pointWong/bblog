@@ -13,7 +13,7 @@ style:
     enable: true
     # 首屏背景图片，可使用 本地图片 或 图片外链 URL
     # background_img: /images/bg.jpg
-    description: '山中何事？松花酿酒，春水煎茶'
+    description: '山中何事？松花酿酒，春水煎茶~'
   scroll: 
     progress_bar: 
       enable: true
@@ -22,12 +22,6 @@ social_contact:
   enable: true
   links:
     github: 'https://github.com/pointWong'              # your GitHub URL
-    weixin: 'wechat'             # your WeChat QR-Code URL
-    qq: 'qq'                # your QQ QR-Code URL
-    weibo: 'https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F'               # your WeiBo URL
-    # zhihu: 'sdf'              # your ZhiHu URL
-    # twitter: 'sdf'            # your twitter URL
-    # facebook: 'dsf'           # your facebook URL
     email: 'wangdickdickwang@gmail.com'            # your email
 
 menu:
@@ -35,9 +29,6 @@ menu:
   Archives: /archives
   Categories: /categories
   Tags: /tags
-  # Links: /links
-  # About: /about
-  # 百度: https://www.baidu.com/
   Benbb: https://benbb.cc
 
 home_article:
@@ -62,8 +53,6 @@ local_search:
   preload: true
 
 website_count:
-  # busuanzi
-  # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
     enable: true
     site_uv: true

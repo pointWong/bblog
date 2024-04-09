@@ -105,7 +105,9 @@ theme: keep
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/pointWong/pointWong.github.io.git
+  branch: gh-page
 
 # search
 search:
