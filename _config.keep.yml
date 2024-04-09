@@ -1,0 +1,74 @@
+base_info:
+  title: oops
+  author: Brian
+  url:  https://pointwong.github.io/
+
+style:
+  # 主题主要颜色
+  primary_color: "#ef5b00"
+  avatar: /images/avatar.png
+  favicon: /images/avatar.png
+  shadow: '#ccc'
+  first_screen:
+    enable: true
+    # 首屏背景图片，可使用 本地图片 或 图片外链 URL
+    # background_img: /images/bg.jpg
+    description: '山中何事？松花酿酒，春水煎茶'
+  scroll: 
+    progress_bar: 
+      enable: true
+
+social_contact:
+  enable: true
+  links:
+    github: 'https://github.com/pointWong'              # your GitHub URL
+    weixin: 'wechat'             # your WeChat QR-Code URL
+    qq: 'qq'                # your QQ QR-Code URL
+    weibo: 'https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F'               # your WeiBo URL
+    # zhihu: 'sdf'              # your ZhiHu URL
+    # twitter: 'sdf'            # your twitter URL
+    # facebook: 'dsf'           # your facebook URL
+    email: 'wangdickdickwang@gmail.com'            # your email
+
+menu:
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  # Links: /links
+  # About: /about
+  # 百度: https://www.baidu.com/
+  Benbb: https://benbb.cc
+
+home_article:
+  category:
+    enable: true
+    limit: 3
+  tag:
+    enable: true
+    limit: 5
+
+toc:
+  enable: true
+  number: true
+  expand_all: true
+  init_open: true
+
+copyright_info:
+  enable: true
+
+local_search:
+  enable: true
+  preload: true
+
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: true
+    site_uv: true
+    site_pv: true
+    page_pv: false
+
+lazyload:
+  enable: true
